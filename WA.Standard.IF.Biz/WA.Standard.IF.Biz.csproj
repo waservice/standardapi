@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6232757D-624E-4104-A40F-121ACA26A7D2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WA.Standard.IF.Biz</RootNamespace>
+    <AssemblyName>WA.Standard.IF.Biz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\WA.Standard.IF.Assembly\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="STIS.Framework.V4">
+      <HintPath>..\WA.Standard.IF.Assembly\STIS.Framework.V4.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\DataHelper.cs" />
+    <Compile Include="v2\Base\BaseBiz.cs" />
+    <Compile Include="v2\Base\CommonCode.cs" />
+    <Compile Include="v2\Common\CustomerVehicle_Biz.cs" />
+    <Compile Include="v2\Common\Appointment_Biz.cs" />
+    <Compile Include="v2\Common\Employee_Biz.cs" />
+    <Compile Include="v2\Common\Job_Biz.cs" />
+    <Compile Include="v2\Common\Message_Biz.cs" />
+    <Compile Include="v2\Common\OPCode_Biz.cs" />
+    <Compile Include="v2\Common\PackageCode_Biz.cs" />
+    <Compile Include="v2\Common\Parts_Biz.cs" />
+    <Compile Include="v2\Common\RepairOrder_Biz.cs" />
+    <Compile Include="v2\HMCIS\Price_Biz.cs" />
+    <Compile Include="v2\HMCIS\Print_Biz.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WA.Standard.IF.Dac\WA.Standard.IF.Dac.csproj">
+      <Project>{2C73209D-D092-4CE3-ADD4-438BFBB8D7ED}</Project>
+      <Name>WA.Standard.IF.Dac</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Data\WA.Standard.IF.Data.csproj">
+      <Project>{2635AE3E-B79A-4EBD-8B3D-3284DDEF7A8C}</Project>
+      <Name>WA.Standard.IF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Logger\WA.Standard.IF.Logger.csproj">
+      <Project>{1E7DDCFB-D1EA-42E7-B139-660F72F8DDE3}</Project>
+      <Name>WA.Standard.IF.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Proxy\WA.Standard.IF.Proxy.csproj">
+      <Project>{5C0853B7-0B55-4921-918B-578AF0B454CB}</Project>
+      <Name>WA.Standard.IF.Proxy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

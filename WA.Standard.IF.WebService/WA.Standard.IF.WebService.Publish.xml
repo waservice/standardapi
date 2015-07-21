@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WA.Standard.IF.WebService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="프로필1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/STIS.Framework.V4.dll" publishTime="02/06/2015 17:35:51" />
+    <file relUrl="v2/Repository/Employees.xml" publishTime="06/08/2015 16:11:30" />
+    <file relUrl="bin/WA.Standard.IF.WebService.pdb" publishTime="06/20/2015 19:01:39" />
+    <file relUrl="v2/Common/CustomerVehicle.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="bin/WA.Standard.IF.Data.dll" publishTime="06/20/2015 19:01:38" />
+    <file relUrl="Global.asax" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="v2/Repository/Parts.xml" publishTime="06/03/2015 17:58:25" />
+    <file relUrl="v2/Common/Job.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="v2/Common/Message.asmx" publishTime="05/29/2015 09:42:26" />
+    <file relUrl="v2/Repository/Jobs.xml" publishTime="06/17/2015 14:15:37" />
+    <file relUrl="v2/Repository/CustomerVehicles.xml" publishTime="06/14/2015 13:13:49" />
+    <file relUrl="bin/_WA.Mapper.v2.dll" publishTime="06/20/2015 19:01:37" />
+    <file relUrl="v2/Common/Parts.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="v2/Common/PackageCode.asmx" publishTime="06/10/2015 16:03:29" />
+    <file relUrl="v2/Common/RepairOrder.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="v2/HMCIS/Price.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="bin/_1C.v4.dll" publishTime="06/20/2015 19:01:37" />
+    <file relUrl="bin/WA.Standard.IF.Biz.pdb" publishTime="06/20/2015 19:01:39" />
+    <file relUrl="v2/Repository/Appointments.xml" publishTime="06/19/2015 14:56:06" />
+    <file relUrl="v2/Repository/Prices.xml" publishTime="06/03/2015 20:55:16" />
+    <file relUrl="v2/HMCIS/Print.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="bin/_1C.v4.pdb" publishTime="06/20/2015 19:01:37" />
+    <file relUrl="v2/Repository/RepairOrderDocuments.xml" publishTime="06/17/2015 14:15:37" />
+    <file relUrl="Default.aspx" publishTime="06/11/2015 15:40:06" />
+    <file relUrl="bin/WA.Standard.IF.Biz.dll" publishTime="06/20/2015 19:01:39" />
+    <file relUrl="bin/_WA.Mapper.v2.pdb" publishTime="06/20/2015 19:01:37" />
+    <file relUrl="bin/log4net.dll" publishTime="02/06/2015 17:35:50" />
+    <file relUrl="bin/STIS.Framework.V4.Cryptography.dll" publishTime="02/06/2015 17:35:51" />
+    <file relUrl="v2/Common/Appointment.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="v2/Repository/OPCodes.xml" publishTime="06/03/2015 17:58:25" />
+    <file relUrl="v2/Common/OPCode.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="Web.config" publishTime="06/20/2015 19:02:07" />
+    <file relUrl="v2/Repository/PackageCodes.xml" publishTime="06/17/2015 14:15:37" />
+    <file relUrl="bin/WA.Standard.IF.Proxy.dll" publishTime="06/20/2015 19:01:38" />
+    <file relUrl="bin/WA.Standard.IF.Logger.pdb" publishTime="06/20/2015 19:01:37" />
+    <file relUrl="v2/Common/Employee.asmx" publishTime="05/28/2015 12:38:14" />
+    <file relUrl="bin/WA.Standard.IF.Data.pdb" publishTime="06/20/2015 19:01:38" />
+    <file relUrl="bin/WA.Standard.IF.WebService.dll" publishTime="06/20/2015 19:01:39" />
+    <file relUrl="bin/WA.Standard.IF.Proxy.pdb" publishTime="06/20/2015 19:01:38" />
+    <file relUrl="bin/WA.Standard.IF.Logger.dll" publishTime="06/20/2015 19:01:37" />
+  </publishProfile>
+</publishData>

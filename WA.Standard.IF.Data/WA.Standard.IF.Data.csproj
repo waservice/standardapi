@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2635AE3E-B79A-4EBD-8B3D-3284DDEF7A8C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WA.Standard.IF.Data</RootNamespace>
+    <AssemblyName>WA.Standard.IF.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\WA.Standard.IF.Assembly\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentChange.cs" />
+    <Compile Include="v2\Common\Appointment\Appointment.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentChangeRequest.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentGet.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentGetRequest.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentGetResponse.cs" />
+    <Compile Include="v2\Common\Appointment\Contact.cs" />
+    <Compile Include="v2\Common\Appointment\Customer.cs" />
+    <Compile Include="v2\Common\Appointment\AppointmentChangeResponse.cs" />
+    <Compile Include="v2\Common\Common\RORef.cs" />
+    <Compile Include="v2\Common\Appointment\Vehicle.cs" />
+    <Compile Include="v2\Common\Common\AdditionalField.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\Contact.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\Customer.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicle.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\Vehicle.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleChangeResponse.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleGet.cs" />
+    <Compile Include="v2\Common\Customer\Address.cs" />
+    <Compile Include="v2\Common\Employee\EmployeeGetRequest.cs" />
+    <Compile Include="v2\Common\Job\JobChangeRequest.cs" />
+    <Compile Include="v2\Common\Job\JobChangeResponse.cs" />
+    <Compile Include="v2\Common\Job\JobGetRequest.cs" />
+    <Compile Include="v2\Common\Message\MessageReceive.cs" />
+    <Compile Include="v2\Common\Message\MessageSendRequest.cs" />
+    <Compile Include="v2\Common\OPCode\OPCodeGetRequest.cs" />
+    <Compile Include="v2\Common\PackageCode\OPCode.cs" />
+    <Compile Include="v2\Common\PackageCode\PackageCode.cs" />
+    <Compile Include="v2\Common\PackageCode\PackageCodeGet.cs" />
+    <Compile Include="v2\Common\PackageCode\PackageCodeGetRequest.cs" />
+    <Compile Include="v2\Common\PackageCode\PackageCodeGetResponse.cs" />
+    <Compile Include="v2\Common\PackageCode\Part.cs" />
+    <Compile Include="v2\Common\Part\PartsGetRequest.cs" />
+    <Compile Include="v2\Common\RepairOrder\Contact.cs" />
+    <Compile Include="v2\Common\RepairOrder\Customer.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderChangeRequest.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderChangeResponse.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderGetRequest.cs" />
+    <Compile Include="v2\Common\RepairOrder\Vehicle.cs" />
+    <Compile Include="v2\Common\Vehicle\Campaign.cs" />
+    <Compile Include="v2\Common\Common\Cause.cs" />
+    <Compile Include="v2\Common\Common\Comment.cs" />
+    <Compile Include="v2\Common\Customer\Contact.cs" />
+    <Compile Include="v2\Common\Customer\CorporateInfo.cs" />
+    <Compile Include="v2\Common\Common\Correction.cs" />
+    <Compile Include="v2\Common\Customer\Customer.cs" />
+    <Compile Include="v2\Common\Common\Description.cs" />
+    <Compile Include="v2\Common\Common\Error.cs" />
+    <Compile Include="v2\Common\Common\JobRef.cs" />
+    <Compile Include="v2\Common\Common\ManagementFields.cs" />
+    <Compile Include="v2\Common\Common\MISC.cs" />
+    <Compile Include="v2\Common\Common\OPCode.cs" />
+    <Compile Include="v2\Common\Common\Option.cs" />
+    <Compile Include="v2\Common\Common\Part.cs" />
+    <Compile Include="v2\Common\Common\PriceType.cs" />
+    <Compile Include="v2\Common\Common\RequestItem.cs" />
+    <Compile Include="v2\Common\Common\ResponseCode.cs" />
+    <Compile Include="v2\Common\Common\ResponseMessage.cs" />
+    <Compile Include="v2\Common\Common\ResultMessage.cs" />
+    <Compile Include="v2\Common\Customer\SpecialMessage.cs" />
+    <Compile Include="v2\Common\Common\Sublet.cs" />
+    <Compile Include="v2\Common\Common\TransactionHeader.cs" />
+    <Compile Include="v2\Common\Vehicle\Vehicle.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleChange.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleChangeRequest.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleGetRequest.cs" />
+    <Compile Include="v2\Common\CustomerVehicle\CustomerVehicleGetResponse.cs" />
+    <Compile Include="v2\Common\Employee\Employee.cs" />
+    <Compile Include="v2\Common\Employee\EmployeeGet.cs" />
+    <Compile Include="v2\Common\Employee\EmployeeGetResponse.cs" />
+    <Compile Include="v2\Common\Employee\Role.cs" />
+    <Compile Include="v2\Common\Job\ActualTimeLog.cs" />
+    <Compile Include="v2\Common\Job\JobComment.cs" />
+    <Compile Include="v2\Common\Job\JobChange.cs" />
+    <Compile Include="v2\Common\Job\Job.cs" />
+    <Compile Include="v2\Common\Job\JobGet.cs" />
+    <Compile Include="v2\Common\Job\JobGetResponse.cs" />
+    <Compile Include="v2\Common\Job\JobLog.cs" />
+    <Compile Include="v2\Common\Job\OPCode.cs" />
+    <Compile Include="v2\Common\Job\Technician.cs" />
+    <Compile Include="v2\Common\Message\MessageReceiveResponse.cs" />
+    <Compile Include="v2\Common\Message\MessageReceiveRequest.cs" />
+    <Compile Include="v2\Common\Message\MessageSend.cs" />
+    <Compile Include="v2\Common\Message\MessageSendResponse.cs" />
+    <Compile Include="v2\Common\OPCode\OPCode.cs" />
+    <Compile Include="v2\Common\OPCode\OPCodeGet.cs" />
+    <Compile Include="v2\Common\OPCode\OPCodeGetResponse.cs" />
+    <Compile Include="v2\Common\Part\Part.cs" />
+    <Compile Include="v2\Common\Part\PartsGet.cs" />
+    <Compile Include="v2\Common\Part\PartsGetResponse.cs" />
+    <Compile Include="v2\HMCIS\Price\OPCode.cs" />
+    <Compile Include="v2\HMCIS\Price\Part.cs" />
+    <Compile Include="v2\HMCIS\Price\PriceCheck.cs" />
+    <Compile Include="v2\HMCIS\Price\PriceCheckRequest.cs" />
+    <Compile Include="v2\HMCIS\Price\PriceCheckResponse.cs" />
+    <Compile Include="v2\HMCIS\Price\Price.cs" />
+    <Compile Include="v2\HMCIS\Print\Print.cs" />
+    <Compile Include="v2\HMCIS\Print\PrintRequest.cs" />
+    <Compile Include="v2\HMCIS\Print\PrintResponse.cs" />
+    <Compile Include="v2\Common\Common\AppointmentRef.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderChange.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrder.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderDocument.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderGet.cs" />
+    <Compile Include="v2\Common\RepairOrder\RepairOrderGetResponse.cs" />
+    <Compile Include="v2\Common\RepairOrder\CustomerPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WA.Standard.IF.Logger\WA.Standard.IF.Logger.csproj">
+      <Project>{1E7DDCFB-D1EA-42E7-B139-660F72F8DDE3}</Project>
+      <Name>WA.Standard.IF.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

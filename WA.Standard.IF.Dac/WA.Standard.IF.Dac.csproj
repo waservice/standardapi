@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2C73209D-D092-4CE3-ADD4-438BFBB8D7ED}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WA.Standard.IF.Dac</RootNamespace>
+    <AssemblyName>WA.Standard.IF.Dac</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\WA.Standard.IF.Assembly\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.1.0.0, Culture=neutral, PublicKeyToken=e44a2bc38ed2c13c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WA.Standard.IF.Assembly\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data">
+      <HintPath>..\WA.Standard.IF.Assembly\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="STIS.Framework.V4.Cryptography">
+      <HintPath>..\WA.Standard.IF.Assembly\STIS.Framework.V4.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="v2\Base\BaseDac.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="v2\Common\Appointment_Dac.cs" />
+    <Compile Include="v2\Common\Employee_Dac.cs" />
+    <Compile Include="v2\Common\Job_Dac.cs" />
+    <Compile Include="v2\Common\Message_Dac.cs" />
+    <Compile Include="v2\Common\OPCode_Dac.cs" />
+    <Compile Include="v2\Common\PackageCode_Dac.cs" />
+    <Compile Include="v2\Common\Parts_Dac.cs" />
+    <Compile Include="v2\Common\CustomerVehicle_Dac.cs" />
+    <Compile Include="v2\Common\RepairOrder_Dac.cs" />
+    <Compile Include="v2\HMCIS\Price_Dac.cs" />
+    <Compile Include="v2\HMCIS\Print_Dac.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WA.Standard.IF.Data\WA.Standard.IF.Data.csproj">
+      <Project>{2635AE3E-B79A-4EBD-8B3D-3284DDEF7A8C}</Project>
+      <Name>WA.Standard.IF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Logger\WA.Standard.IF.Logger.csproj">
+      <Project>{1E7DDCFB-D1EA-42E7-B139-660F72F8DDE3}</Project>
+      <Name>WA.Standard.IF.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,5 @@
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_SERAUTO.v1\bin\Debug\_SERAUTO.v1.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_SERAUTO.v1\bin\Debug\_SERAUTO.v1.pdb
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_SERAUTO.v1\obj\Debug\_SERAUTO.v1.csprojResolveAssemblyReference.cache
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_SERAUTO.v1\obj\Debug\_SERAUTO.v1.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_SERAUTO.v1\obj\Debug\_SERAUTO.v1.pdb

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F873F89-15DF-4D80-AB17-EF72C4EEF1C1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WA.Standard.IF.WebService</RootNamespace>
+    <AssemblyName>WA.Standard.IF.WebService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WA.Standard.IF.Assembly\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="STIS.Framework.V4.Cryptography, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WA.Standard.IF.Assembly\STIS.Framework.V4.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\common.css" />
+    <Content Include="css\login.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="img\btnLogin.png" />
+    <Content Include="img\git.png" />
+    <Content Include="img\title.png" />
+    <Content Include="img\titleBg.png" />
+    <Content Include="js\jquery\jquery-1.5.1.js" />
+    <Content Include="js\jquery\jquery-ui-1.8.10.custom.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="v2\Common\Appointment.asmx" />
+    <Content Include="v2\Common\CustomerVehicle.asmx" />
+    <Content Include="v2\Common\Employee.asmx" />
+    <Content Include="v2\Common\Job.asmx" />
+    <Content Include="v2\Common\Message.asmx" />
+    <Content Include="v2\Common\OPCode.asmx" />
+    <Content Include="v2\Common\PackageCode.asmx" />
+    <Content Include="v2\Common\Parts.asmx" />
+    <Content Include="v2\Common\RepairOrder.asmx" />
+    <Content Include="v2\HMCIS\Price.asmx" />
+    <Content Include="v2\HMCIS\Print.asmx" />
+    <Content Include="v2\Repository\Appointments.xml" />
+    <Content Include="v2\Repository\CustomerVehicles.xml" />
+    <Content Include="v2\Repository\Employees.xml" />
+    <Content Include="v2\Repository\Jobs.xml" />
+    <Content Include="v2\Repository\OPCodes.xml" />
+    <Content Include="v2\Repository\Parts.xml" />
+    <Content Include="v2\Repository\RepairOrderDocuments.xml" />
+    <Content Include="v2\Repository\Prices.xml" />
+    <Content Include="v2\Repository\PackageCodes.xml" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\Appointment.asmx.cs">
+      <DependentUpon>Appointment.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Base\BaseWebService.cs" />
+    <Compile Include="v2\Common\CustomerVehicle.asmx.cs">
+      <DependentUpon>CustomerVehicle.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\Employee.asmx.cs">
+      <DependentUpon>Employee.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\Job.asmx.cs">
+      <DependentUpon>Job.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\Message.asmx.cs">
+      <DependentUpon>Message.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\OPCode.asmx.cs">
+      <DependentUpon>OPCode.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\PackageCode.asmx.cs">
+      <DependentUpon>PackageCode.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\Parts.asmx.cs">
+      <DependentUpon>Parts.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\Common\RepairOrder.asmx.cs">
+      <DependentUpon>RepairOrder.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\HMCIS\Price.asmx.cs">
+      <DependentUpon>Price.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="v2\HMCIS\Print.asmx.cs">
+      <DependentUpon>Print.asmx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Notification_v2\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WA.Standard.IF.Biz\WA.Standard.IF.Biz.csproj">
+      <Project>{6232757D-624E-4104-A40F-121ACA26A7D2}</Project>
+      <Name>WA.Standard.IF.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Data\WA.Standard.IF.Data.csproj">
+      <Project>{2635AE3E-B79A-4EBD-8B3D-3284DDEF7A8C}</Project>
+      <Name>WA.Standard.IF.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WA.Standard.IF.Logger\WA.Standard.IF.Logger.csproj">
+      <Project>{1E7DDCFB-D1EA-42E7-B139-660F72F8DDE3}</Project>
+      <Name>WA.Standard.IF.Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://127.0.0.1:8080/Util/Notification.asmx%3fWSDL">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WS_Notification_v2\</RelPath>
+      <UpdateFromURL>http://127.0.0.1:8080/Util/Notification.asmx%3fWSDL</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WA_Standard_IF_WebService_WS_Notification_v2_Notification</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Notification_v2\Notification.wsdl" />
+    <None Include="Web References\WS_Notification_v2\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54686</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

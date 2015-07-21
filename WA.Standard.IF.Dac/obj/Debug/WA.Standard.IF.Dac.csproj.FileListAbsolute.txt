@@ -1,0 +1,14 @@
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Dac.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Dac.pdb
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\log4net.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\STIS.Framework.V4.Cryptography.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Data.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Logger.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Data.pdb
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\bin\Debug\WA.Standard.IF.Logger.pdb
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\obj\Debug\WA.Standard.IF.Dac.csprojResolveAssemblyReference.cache
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\obj\Debug\WA.Standard.IF.Dac.dll
+D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Dac\obj\Debug\WA.Standard.IF.Dac.pdb

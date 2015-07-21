@@ -1,0 +1,782 @@
+﻿<OperationCodes>
+  <OperationCode>
+    <Code>1</Code>
+    <Description>10,0000KM SERVICE</Description>
+    <DisplayOperationCode>S100000K</DisplayOperationCode>
+    <DisplayOperationDescription>10,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>100000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>5.58</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>370000</UnitPrice>
+      <TotalPrice>370000</TotalPrice>
+      <TotalPriceIncludeTax>444000</TotalPriceIncludeTax>
+      <DiscountRate>0.19019</DiscountRate>
+      <DiscountPrice>84444.36</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>2</Code>
+    <Description>1,0000KM SERVICE</Description>
+    <DisplayOperationCode>S10000K</DisplayOperationCode>
+    <DisplayOperationDescription>1,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>10000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.9</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>37000</UnitPrice>
+      <TotalPrice>37000</TotalPrice>
+      <TotalPriceIncludeTax>44400</TotalPriceIncludeTax>
+      <DiscountRate>0.1938</DiscountRate>
+      <DiscountPrice>8604.72</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>3</Code>
+    <Description>2,0000KM SERVICE</Description>
+    <DisplayOperationCode>S20000K</DisplayOperationCode>
+    <DisplayOperationDescription>2,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>20000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.9800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>74000</UnitPrice>
+      <TotalPrice>74000</TotalPrice>
+      <TotalPriceIncludeTax>88800</TotalPriceIncludeTax>
+      <DiscountRate>0.19285</DiscountRate>
+      <DiscountPrice>17125.08</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>4</Code>
+    <Description>3,0000KM SERVICE</Description>
+    <DisplayOperationCode>S30000K</DisplayOperationCode>
+    <DisplayOperationDescription>3,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>30000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.54</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>111000</UnitPrice>
+      <TotalPrice>111000</TotalPrice>
+      <TotalPriceIncludeTax>133200</TotalPriceIncludeTax>
+      <DiscountRate>0.1925333333333</DiscountRate>
+      <DiscountPrice>25645.44</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>5</Code>
+    <Description>4,0000KM SERVICE</Description>
+    <DisplayOperationCode>S40000K</DisplayOperationCode>
+    <DisplayOperationDescription>4,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>40000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.06</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>148000</UnitPrice>
+      <TotalPrice>148000</TotalPrice>
+      <TotalPriceIncludeTax>177600</TotalPriceIncludeTax>
+      <DiscountRate>0.192375</DiscountRate>
+      <DiscountPrice>34165.8</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>6</Code>
+    <Description>5,0000KM SERVICE</Description>
+    <DisplayOperationCode>S50000K</DisplayOperationCode>
+    <DisplayOperationDescription>5,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>50000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.26</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>185000</UnitPrice>
+      <TotalPrice>185000</TotalPrice>
+      <TotalPriceIncludeTax>222000</TotalPriceIncludeTax>
+      <DiscountRate>0.19228</DiscountRate>
+      <DiscountPrice>42686.16</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>7</Code>
+    <Description>6,0000KM SERVICE</Description>
+    <DisplayOperationCode>S60000K</DisplayOperationCode>
+    <DisplayOperationDescription>6,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>60000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>4.5</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>222000</UnitPrice>
+      <TotalPrice>222000</TotalPrice>
+      <TotalPriceIncludeTax>266400</TotalPriceIncludeTax>
+      <DiscountRate>0.1922166666666</DiscountRate>
+      <DiscountPrice>51206.52</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>8</Code>
+    <Description>7,0000KM SERVICE</Description>
+    <DisplayOperationCode>S70000K</DisplayOperationCode>
+    <DisplayOperationDescription>7,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>70000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>2.16</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>259000</UnitPrice>
+      <TotalPrice>259000</TotalPrice>
+      <TotalPriceIncludeTax>310800</TotalPriceIncludeTax>
+      <DiscountRate>0.1921714285714</DiscountRate>
+      <DiscountPrice>59726.88</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>9</Code>
+    <Description>8,0000KM SERVICE</Description>
+    <DisplayOperationCode>S80000K</DisplayOperationCode>
+    <DisplayOperationDescription>8,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>80000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.7800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>296000</UnitPrice>
+      <TotalPrice>296000</TotalPrice>
+      <TotalPriceIncludeTax>355200</TotalPriceIncludeTax>
+      <DiscountRate>0.1921375</DiscountRate>
+      <DiscountPrice>68247.24</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>10</Code>
+    <Description>9,0000KM SERVICE</Description>
+    <DisplayOperationCode>S90000K</DisplayOperationCode>
+    <DisplayOperationDescription>9,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>SONATA</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2005</Year>
+    <Mileage>90000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.24</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>333000</UnitPrice>
+      <TotalPrice>333000</TotalPrice>
+      <TotalPriceIncludeTax>399600</TotalPriceIncludeTax>
+      <DiscountRate>0.1921111111111</DiscountRate>
+      <DiscountPrice>76767.6</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>11</Code>
+    <Description>10,0000KM SERVICE</Description>
+    <DisplayOperationCode>T100000K</DisplayOperationCode>
+    <DisplayOperationDescription>10,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>100000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>5.58</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>370000</UnitPrice>
+      <TotalPrice>370000</TotalPrice>
+      <TotalPriceIncludeTax>444000</TotalPriceIncludeTax>
+      <DiscountRate>0.19209</DiscountRate>
+      <DiscountPrice>85287.96</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>12</Code>
+    <Description>1,0000KM SERVICE</Description>
+    <DisplayOperationCode>T10000K</DisplayOperationCode>
+    <DisplayOperationDescription>1,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>10000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.9</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>37000</UnitPrice>
+      <TotalPrice>37000</TotalPrice>
+      <TotalPriceIncludeTax>44400</TotalPriceIncludeTax>
+      <DiscountRate>0.2128</DiscountRate>
+      <DiscountPrice>9448.32</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>13</Code>
+    <Description>2,0000KM SERVICE</Description>
+    <DisplayOperationCode>T20000K</DisplayOperationCode>
+    <DisplayOperationDescription>2,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>20000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.9800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>74000</UnitPrice>
+      <TotalPrice>74000</TotalPrice>
+      <TotalPriceIncludeTax>88800</TotalPriceIncludeTax>
+      <DiscountRate>0.20235</DiscountRate>
+      <DiscountPrice>17968.68</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>14</Code>
+    <Description>3,0000KM SERVICE</Description>
+    <DisplayOperationCode>T30000K</DisplayOperationCode>
+    <DisplayOperationDescription>3,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>30000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.54</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>111000</UnitPrice>
+      <TotalPrice>111000</TotalPrice>
+      <TotalPriceIncludeTax>133200</TotalPriceIncludeTax>
+      <DiscountRate>0.1988666666666</DiscountRate>
+      <DiscountPrice>26489.04</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>15</Code>
+    <Description>4,0000KM SERVICE</Description>
+    <DisplayOperationCode>T40000K</DisplayOperationCode>
+    <DisplayOperationDescription>4,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>40000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.06</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>148000</UnitPrice>
+      <TotalPrice>148000</TotalPrice>
+      <TotalPriceIncludeTax>177600</TotalPriceIncludeTax>
+      <DiscountRate>0.197125</DiscountRate>
+      <DiscountPrice>35009.4</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>16</Code>
+    <Description>5,0000KM SERVICE</Description>
+    <DisplayOperationCode>T50000K</DisplayOperationCode>
+    <DisplayOperationDescription>5,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>50000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.26</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>185000</UnitPrice>
+      <TotalPrice>185000</TotalPrice>
+      <TotalPriceIncludeTax>222000</TotalPriceIncludeTax>
+      <DiscountRate>0.19608</DiscountRate>
+      <DiscountPrice>43529.76</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>17</Code>
+    <Description>6,0000KM SERVICE</Description>
+    <DisplayOperationCode>T60000K</DisplayOperationCode>
+    <DisplayOperationDescription>6,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>60000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>4.5</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>222000</UnitPrice>
+      <TotalPrice>222000</TotalPrice>
+      <TotalPriceIncludeTax>266400</TotalPriceIncludeTax>
+      <DiscountRate>0.1953833333333</DiscountRate>
+      <DiscountPrice>52050.12</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>18</Code>
+    <Description>7,0000KM SERVICE</Description>
+    <DisplayOperationCode>T70000K</DisplayOperationCode>
+    <DisplayOperationDescription>7,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>70000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>2.16</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>259000</UnitPrice>
+      <TotalPrice>259000</TotalPrice>
+      <TotalPriceIncludeTax>310800</TotalPriceIncludeTax>
+      <DiscountRate>0.1948857142857</DiscountRate>
+      <DiscountPrice>60570.48</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>19</Code>
+    <Description>8,0000KM SERVICE</Description>
+    <DisplayOperationCode>T80000K</DisplayOperationCode>
+    <DisplayOperationDescription>8,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>80000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.7800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>296000</UnitPrice>
+      <TotalPrice>296000</TotalPrice>
+      <TotalPriceIncludeTax>355200</TotalPriceIncludeTax>
+      <DiscountRate>0.1945125</DiscountRate>
+      <DiscountPrice>69090.84</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>20</Code>
+    <Description>9,0000KM SERVICE</Description>
+    <DisplayOperationCode>T90000K</DisplayOperationCode>
+    <DisplayOperationDescription>9,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>TUCSON</Model>
+    <Engine>1.8L I4 FI DO</Engine>
+    <Year>2010</Year>
+    <Mileage>90000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.24</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>333000</UnitPrice>
+      <TotalPrice>333000</TotalPrice>
+      <TotalPriceIncludeTax>399600</TotalPriceIncludeTax>
+      <DiscountRate>0.1942222222222</DiscountRate>
+      <DiscountPrice>77611.2</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>21</Code>
+    <Description>10,0000KM SERVICE</Description>
+    <DisplayOperationCode>V100000K</DisplayOperationCode>
+    <DisplayOperationDescription>10,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>100000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>5.58</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>370000</UnitPrice>
+      <TotalPrice>370000</TotalPrice>
+      <TotalPriceIncludeTax>444000</TotalPriceIncludeTax>
+      <DiscountRate>0.19399</DiscountRate>
+      <DiscountPrice>86131.56</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>22</Code>
+    <Description>1,0000KM SERVICE</Description>
+    <DisplayOperationCode>V10000K</DisplayOperationCode>
+    <DisplayOperationDescription>1,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>10000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.9</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>37000</UnitPrice>
+      <TotalPrice>37000</TotalPrice>
+      <TotalPriceIncludeTax>44400</TotalPriceIncludeTax>
+      <DiscountRate>0.2318</DiscountRate>
+      <DiscountPrice>10291.92</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>23</Code>
+    <Description>2,0000KM SERVICE</Description>
+    <DisplayOperationCode>V20000K</DisplayOperationCode>
+    <DisplayOperationDescription>2,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>20000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.9800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>74000</UnitPrice>
+      <TotalPrice>74000</TotalPrice>
+      <TotalPriceIncludeTax>88800</TotalPriceIncludeTax>
+      <DiscountRate>0.21185</DiscountRate>
+      <DiscountPrice>18812.28</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>24</Code>
+    <Description>3,0000KM SERVICE</Description>
+    <DisplayOperationCode>V30000K</DisplayOperationCode>
+    <DisplayOperationDescription>3,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>30000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>0.54</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>111000</UnitPrice>
+      <TotalPrice>111000</TotalPrice>
+      <TotalPriceIncludeTax>133200</TotalPriceIncludeTax>
+      <DiscountRate>0.2052</DiscountRate>
+      <DiscountPrice>27332.64</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>25</Code>
+    <Description>4,0000KM SERVICE</Description>
+    <DisplayOperationCode>V40000K</DisplayOperationCode>
+    <DisplayOperationDescription>4,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>40000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.06</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>148000</UnitPrice>
+      <TotalPrice>148000</TotalPrice>
+      <TotalPriceIncludeTax>177600</TotalPriceIncludeTax>
+      <DiscountRate>0.201875</DiscountRate>
+      <DiscountPrice>35853</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>26</Code>
+    <Description>5,0000KM SERVICE</Description>
+    <DisplayOperationCode>V50000K</DisplayOperationCode>
+    <DisplayOperationDescription>5,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>50000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>1.26</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>185000</UnitPrice>
+      <TotalPrice>185000</TotalPrice>
+      <TotalPriceIncludeTax>222000</TotalPriceIncludeTax>
+      <DiscountRate>0.19988</DiscountRate>
+      <DiscountPrice>44373.36</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>27</Code>
+    <Description>6,0000KM SERVICE</Description>
+    <DisplayOperationCode>V60000K</DisplayOperationCode>
+    <DisplayOperationDescription>6,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>60000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>4.5</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>222000</UnitPrice>
+      <TotalPrice>222000</TotalPrice>
+      <TotalPriceIncludeTax>266400</TotalPriceIncludeTax>
+      <DiscountRate>0.19855</DiscountRate>
+      <DiscountPrice>52893.72</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>28</Code>
+    <Description>7,0000KM SERVICE</Description>
+    <DisplayOperationCode>V70000K</DisplayOperationCode>
+    <DisplayOperationDescription>7,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>70000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>2.16</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>259000</UnitPrice>
+      <TotalPrice>259000</TotalPrice>
+      <TotalPriceIncludeTax>310800</TotalPriceIncludeTax>
+      <DiscountRate>0.1976</DiscountRate>
+      <DiscountPrice>61414.08</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>29</Code>
+    <Description>8,0000KM SERVICE</Description>
+    <DisplayOperationCode>V80000K</DisplayOperationCode>
+    <DisplayOperationDescription>8,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>80000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.7800000000000002</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>296000</UnitPrice>
+      <TotalPrice>296000</TotalPrice>
+      <TotalPriceIncludeTax>355200</TotalPriceIncludeTax>
+      <DiscountRate>0.1968875</DiscountRate>
+      <DiscountPrice>69934.44</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+  <OperationCode>
+    <Code>30</Code>
+    <Description>9,0000KM SERVICE</Description>
+    <DisplayOperationCode>V90000K</DisplayOperationCode>
+    <DisplayOperationDescription>9,0000KM SERVICE</DisplayOperationDescription>
+    <Make>Hyundai</Make>
+    <Model>VERACRUZ</Model>
+    <Engine>2.5L I4 FI DO</Engine>
+    <Year>2000</Year>
+    <Mileage>90000</Mileage>
+    <Period/>
+    <DefLinePaymentMethod>Retail</DefLinePaymentMethod>
+    <EstimatedHours>3.24</EstimatedHours>
+    <ManagementFields>
+      <CreateDateTimeUTC>2015-05-31T07:54:31.383</CreateDateTimeUTC>
+      <LastModifiedDateTimeUTC>0001-01-01T00:00:00</LastModifiedDateTimeUTC>
+    </ManagementFields>
+    <PriceType>
+      <UnitPrice>333000</UnitPrice>
+      <TotalPrice>333000</TotalPrice>
+      <TotalPriceIncludeTax>399600</TotalPriceIncludeTax>
+      <DiscountRate>0.1963333333333</DiscountRate>
+      <DiscountPrice>78454.8</DiscountPrice>
+    </PriceType>
+    <OPCodes/>
+  </OperationCode>
+</OperationCodes>
