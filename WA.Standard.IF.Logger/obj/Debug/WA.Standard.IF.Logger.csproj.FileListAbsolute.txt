@@ -1,9 +1,0 @@
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\WA.Standard.IF.Logger.dll.config
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\WA.Standard.IF.Logger.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\WA.Standard.IF.Logger.pdb
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\log4net.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\STIS.Framework.V4.Cryptography.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\bin\Debug\STIS.Framework.V4.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\obj\Debug\WA.Standard.IF.Logger.csprojResolveAssemblyReference.cache
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\obj\Debug\WA.Standard.IF.Logger.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Logger\obj\Debug\WA.Standard.IF.Logger.pdb

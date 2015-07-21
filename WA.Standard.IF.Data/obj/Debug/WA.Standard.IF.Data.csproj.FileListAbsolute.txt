@@ -1,8 +1,0 @@
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\bin\Debug\WA.Standard.IF.Data.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\bin\Debug\WA.Standard.IF.Data.pdb
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\bin\Debug\log4net.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\bin\Debug\WA.Standard.IF.Logger.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\bin\Debug\WA.Standard.IF.Logger.pdb
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\obj\Debug\WA.Standard.IF.Data.csprojResolveAssemblyReference.cache
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\obj\Debug\WA.Standard.IF.Data.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\WA.Standard.IF.Data\obj\Debug\WA.Standard.IF.Data.pdb

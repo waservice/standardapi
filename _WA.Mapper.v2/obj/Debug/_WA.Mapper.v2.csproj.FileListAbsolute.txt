@@ -1,5 +1,0 @@
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_WA.Mapper.v2\bin\Debug\_WA.Mapper.v2.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_WA.Mapper.v2\bin\Debug\_WA.Mapper.v2.pdb
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_WA.Mapper.v2\obj\Debug\_WA.Mapper.v2.csprojResolveAssemblyReference.cache
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_WA.Mapper.v2\obj\Debug\_WA.Mapper.v2.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_WA.Mapper.v2\obj\Debug\_WA.Mapper.v2.pdb

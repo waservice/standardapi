@@ -1,5 +1,0 @@
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_1C.v4\bin\Debug\_1C.v4.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_1C.v4\bin\Debug\_1C.v4.pdb
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_1C.v4\obj\Debug\_1C.v4.csprojResolveAssemblyReference.cache
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_1C.v4\obj\Debug\_1C.v4.dll
-D:\WA\Project\HMCA\v1\Program\WA.Standard.IF\_1C.v4\obj\Debug\_1C.v4.pdb
